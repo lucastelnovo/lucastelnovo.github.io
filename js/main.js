@@ -83,8 +83,8 @@ Version      : 1.0
 
     $(".testimonial-list").owlCarousel({
       items: 1,
-      autoPlay: true,
-      navigation: false,
+      autoPlay: false,
+      navigation: true,
       itemsDesktop: [1199, 1],
       itemsDesktopSmall: [980, 1],
       itemsTablet: [768, 1],
